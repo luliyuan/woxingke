@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>沃兴客</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+		<link rel="stylesheet" href="assets/js/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/idangerous.swiper.css"/>
+		<!--<link rel="stylesheet/less" type="text/css" href="assets/less/wrapper/zhaoshang.less">-->
+		<link rel="stylesheet" type="text/css" href="assets/css/zhaoshang.css"/>
+
+	</head>
+	<body>
+		<!--banner-->
+		<div class="zhiying-content"> 
+			<div class="banner">
+				<img class="img-responsive center-block" src="assets/images/banner/aboutusbanner.png" >
+			</div>
+			<!--第二菜单-->
+			<div class="menu2 clearfix">
+				<ul>
+					<li><a href="">旗舰店</a></li>
+					<li><a href="">联营店</a></li>
+					<li><a href="">直营店</a></li>
+					<li><a href="">申请加盟</a></li>
+				</ul>
+			</div>
+		
+		
+		<!--标题-->
+		<div class="htitle">
+			<span>沃兴客•直营店</span>
+		</div>
+		
+		<!--详情-->
+		<div class="dianmian">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 lunbo">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide red-slide">
+							<img class="img-responsive" src="assets/images/img/jishupeixun.png" >						
+						</div>
+						<div class="swiper-slide red-slide">
+							<img class="img-responsive" src="assets/images/img/jishupeixun.png" >
+						</div>
+						<div class="swiper-slide red-slide">
+							<img class="img-responsive" src="assets/images/img/jishupeixun.png" >
+						</div>
+					</div>
+					<div class="pagination"></div>
+			    </div>			
+						
+						
+						
+						
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 dizhi">
+						<p>沃兴客鞍山二路店</p>
+						<div class="diandizhi glyphicon glyphicon-map-marker">
+							地址：青岛市市北区鞍山二路</div>
+						<div class="dianhua glyphicon glyphicon-phone-alt">
+							电话：<label>0532-88888235   88232823</label>
+						</div>
+						<div class="chakanxiangqing">
+							<div style="background: url(assets/images/img/diqiu.png)no-repeat left center;background-size: contain;height: 35px;line-height: 35px;text-indent: 40px;margin-left: 0;margin-top: 20px;">地图</div>
+						</div>
+						<!--店面介绍-->
+						<div class="dianmianjieshao">
+							<h3>店面介绍</h3>
+							<p class="jieshaop">
+								沃兴客鞍山二路店是“沃兴客”公司旗下汽车电脑、汽车钥匙专营店，专业匹配汽车芯片钥匙、遥控钥匙、智能钥匙、开修汽车锁。维修各种汽车电脑、仪表调效维修、电脑解码编程、音响导航改装、GPS卫星定位、技术培训业务，本店成立于2008年，成为青岛市汽车服务行业首家汽车钥匙、汽车电脑专营店。成立十年以来因专业的技术、诚信负责的服务态度和始终如一的卓越品质赢得了广泛的荣誉和大量客户，同时也是N多修锁公司的耗材与技术供应商，在中国汽车行业、锁匠行业也一定的知名度和影响力。我们一直以来都秉承精益求精、尽善尽美、追求卓越、始终如一的服务理念为广大车主服务。多年以来本公司凭借精湛的技术以及负责的态度，培养了一批又一批的学员，并得到了全国学员的一致好评和认可，目前学员已遍布全国多个城市地区
+							</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="liucheng" >
+			<img class="img-responsive center-block" src="assets/images/img/liucheng.png" >
+		</div>
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		<script src="assets/js/jquery-1.11.0.js"></script>
+		<script src="assets/js/idangerous.swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- ie8 bootstrap -->
+		<script src="assets/js/bootstrap/js/html5shiv.js"></script>
+		<script src="assets/js/bootstrap/js/respond.min.js"></script>
+	
+		<script src="assets/js/less.min.js"></script>
+	
+	<script>
+	
+			jishuswipersize()
+		
+			window.onresize = function(){
+				jishuswipersize();
+			};
+			function jishuswipersize(){
+						$(".swiper-container").height($(".swiper-container").width()*0.6)
+		
+			}
+		less.watch()
+		$(function(){
+				var mySwiper = new Swiper('.swiper-container',{
+					pagination: '.pagination',
+					paginationClickable: true,
+					loop:true,
+					autoplay:2500
+				})
+		})
+	</script>
+	</body>
+</html>

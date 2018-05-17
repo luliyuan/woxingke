@@ -1,0 +1,150 @@
+.header {
+  height: 100px;
+}
+.header .container-fluid {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+@media (max-width: 768px) {
+  .header .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+.header .sousuo {
+  position: relative;
+  width: 174px;
+}
+.header .sousuo input {
+  display: block;
+  margin-top: 34px;
+  width: 174px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #898989;
+  text-indent: 9px;
+  outline: none;
+}
+.header .sousuo a {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+.header .download {
+  margin-top: 34px;
+  display: block;
+  margin-left: 5px;
+}
+.header a {
+  font-size: 15px;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 9;
+  margin-top: 100px;
+}
+@media (min-width: 1380px) {
+  .banner .container {
+    width: 100%;
+    padding: 0 5%;
+  }
+}
+.banner .owl-theme img {
+  width: 100%;
+}
+.banner .owl-theme .owl-pagination {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: -100px;
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 1690px) {
+  .banner .owl-theme .owl-pagination {
+    right: -60px;
+    width: 60px;
+  }
+}
+.banner .owl-theme .owl-pagination .owl-page {
+  display: block;
+}
+.banner .owl-theme .owl-pagination .owl-page span {
+  display: block;
+  width: 6px;
+  height: 6px;
+  opacity: 1;
+  margin: 14px auto;
+  background-color: #5c5c5c;
+}
+.banner .owl-theme .owl-buttons {
+  display: none;
+}
+.banner .online {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media (max-width: 1690px) {
+  .banner .online {
+    width: 60px;
+  }
+}
+.banner .online ul li {
+  text-align: center;
+}
+.banner .online ul li:after {
+  content: '/';
+  display: inline-block;
+  transform: rotate(-70deg);
+  color: #a2a2a2;
+}
+.banner .online ul li:last-child:after {
+  display: none;
+}
+.banner .online ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+.banner .online ul li a:after {
+  font-family: "iconfont";
+  content: '\e618';
+  color: #666666;
+  display: block;
+  font-size: 24px;
+  margin: 10px auto;
+}
+.banner .online ul li.email a:after {
+  font-size: 20px;
+}
+.banner .online ul li.qq a:after {
+  content: '\e611';
+  font-size: 22px;
+}
+.banner .online ul li.wechat a:after {
+  content: '\e636';
+}
+.banner .online ul li.link a:after {
+  content: '\e627';
+}
+.banner .online ul li:hover a:after {
+  color: #d44417;
+}
+.swiper-container {
+  height: 100%;
+}
